@@ -1,0 +1,68 @@
+.card {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-text {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.card-symbol {
+  width: 100%;
+  height: 100%;
+  font-size: 9rem;
+  user-select: none;
+}
+
+.card-sound {
+  width: 18rem;
+  height: 6rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 25%;
+  font-size: 5rem;
+  perspective: 1000px;
+  box-shadow: rgba(9, 32, 77, 0.12) 0px 3px 8px 0px, rgba(29, 17, 51, 0.12) 0px 0px 2px 0px;
+  cursor: pointer;
+}
+
+.card-sound-inner {
+  border-radius: 1rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-sound-inner div {
+  border-radius: 1rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: white;
+  user-select: none;
+}
+
+.card-sound-inner div:nth-child(2) {
+  transform: rotateX(180deg);
+}
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
