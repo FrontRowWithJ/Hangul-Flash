@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hangul-Flash/static/css/main.2034d2e8.chunk.css",
-    "main.js": "/Hangul-Flash/static/js/main.24394bd8.chunk.js",
-    "main.js.map": "/Hangul-Flash/static/js/main.24394bd8.chunk.js.map",
+    "main.js": "/Hangul-Flash/static/js/main.6c0d4c46.chunk.js",
+    "main.js.map": "/Hangul-Flash/static/js/main.6c0d4c46.chunk.js.map",
     "runtime-main.js": "/Hangul-Flash/static/js/runtime-main.5357fbf8.js",
     "runtime-main.js.map": "/Hangul-Flash/static/js/runtime-main.5357fbf8.js.map",
     "static/js/2.3463eb7f.chunk.js": "/Hangul-Flash/static/js/2.3463eb7f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5357fbf8.js",
     "static/js/2.3463eb7f.chunk.js",
     "static/css/main.2034d2e8.chunk.css",
-    "static/js/main.24394bd8.chunk.js"
+    "static/js/main.6c0d4c46.chunk.js"
   ]
 }
