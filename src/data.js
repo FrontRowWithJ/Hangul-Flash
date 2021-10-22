@@ -9,6 +9,19 @@ const data = [
   { symbol: "에", sound: "e (eh)" },
   { symbol: "외", sound: "oe (weh)" },
   { symbol: "위", sound: "wi (wee)" },
+  { symbol: "ᄀ", sound: "g,k" },
+  { symbol: "ᄂ", sound: "n" },
+  { symbol: "ᄃ", sound: "d/t" },
+  { symbol: "ᄅ", sound: "r,l" },
+  { symbol: "ᄆ", sound: "m" },
+  { symbol: "ᄇ", sound: "b/p" },
+  { symbol: "ᄉ", sound: "s,sh" },
+  { symbol: "ᄌ", sound: "j,ch" },
+  { symbol: "ᄎ", sound: "ch" },
+  { symbol: "ᄏ", sound: "k" },
+  { symbol: "ᄐ", sound: "t" },
+  { symbol: "ᄑ", sound: "p" },
+  { symbol: "ᄒ", sound: "h" },
 ];
 
 export default data;
