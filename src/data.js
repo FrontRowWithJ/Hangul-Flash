@@ -22,6 +22,22 @@ const data = [
   { symbol: "ᄐ", sound: "t" },
   { symbol: "ᄑ", sound: "p" },
   { symbol: "ᄒ", sound: "h" },
+  { symbol: "ᄁ", sound: "kk" },
+  { symbol: "ᄄ", sound: "tt" },
+  { symbol: "ᄈ", sound: "pp" },
+  { symbol: "ᄊ", sound: "ss" },
+  { symbol: "ᄍ", sound: "jj" },
+  { symbol: "야", sound: "ya" },
+  { symbol: "여", sound: "yeo" },
+  { symbol: "요", sound: "yo" },
+  { symbol: "유", sound: "yu" },
+  { symbol: "얘", sound: "yae" },
+  { symbol: "예", sound: "ye" },
+  { symbol: "와", sound: "wa" },
+  { symbol: "왜", sound: "wae (wey)" },
+  { symbol: "워", sound: "weo" },
+  { symbol: "웨", sound: "we (weh)" },
+  { symbol: "의", sound: "ui (wee)" },
 ];
 
 export default data;
