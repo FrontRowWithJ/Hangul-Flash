@@ -2,27 +2,20 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import "./card.css";
 import hanguls from "./data";
 
-const fisherYates = (arr = []) => {
-  for (let i = arr.length - 1; i >= 0; i--) {
-    const j = (Math.random() * i) | 0;
-    const tmp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = tmp;
-  }
-  return arr;
+const fisherYates = ([...a], l = a.length, j = Math.random()) => {
+  for (let i = l - 1; i >= 0; i--, j = Math.random())
+    [a[i], a[(j * l) | 0]] = [a[(j * l) | 0], a[i]];
+  return a;
 };
 
 const useHangulNo = (len) => {
-  const [hangulNo, setNo] = useState(0);
   const [index, setIndex] = useState(0);
   const [order, setOrder] = useState(fisherYates([...Array(len).keys()]));
+  const [hangulNo, setNo] = useState(order[index]);
   const setHangul = () => {
-    if (index === len) {
-      setOrder(fisherYates([...Array(len).keys()]));
-      setIndex(0);
-    }
     setNo(order[index]);
-    setIndex((curr) => curr + 1);
+    setIndex((curr) => (curr + 1) % len);
+    if (index === 0) setOrder(fisherYates);
   };
   return [hangulNo, setHangul];
 };
