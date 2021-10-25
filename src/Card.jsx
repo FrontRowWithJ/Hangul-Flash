@@ -13,9 +13,9 @@ const useHangulNo = (len) => {
   const [order, setOrder] = useState(fisherYates([...Array(len).keys()]));
   const [hangulNo, setNo] = useState(order[index]);
   const setHangul = () => {
-    setNo(order[index]);
-    setIndex((curr) => (curr + 1) % len);
-    if (index === 0) setOrder(fisherYates);
+    setIndex((index) => (index + 1) % len);
+    if ((index + 1) % len === 0) setOrder(fisherYates);
+    setNo(order[(index + 1) % len]);
   };
   return [hangulNo, setHangul];
 };
