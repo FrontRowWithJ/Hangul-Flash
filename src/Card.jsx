@@ -11,7 +11,7 @@ const fisherYates = ([...a], l = a.length, j = Math.random()) => {
 const useHangulNo = (len) => {
   const [index, setIndex] = useState(0);
   const [order, setOrder] = useState(fisherYates([...Array(len).keys()]));
-  const [hangulNo, setNo] = useState(order[index]);
+  const [hangulNo, setNo] = useState(order[0]);
   const setHangul = () => {
     setIndex((index) => (index + 1) % len);
     if ((index + 1) % len === 0) setOrder(fisherYates);
