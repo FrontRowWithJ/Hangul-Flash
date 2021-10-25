@@ -33,7 +33,7 @@ const Card = () => {
   }, [setHangulNo, isFront]);
 
   useEffect(() => {
-    const onkeypress = ({ key }) => (key === " " ? changeLetter() : 0);
+    const onkeypress = ({ key }) => (key === " " ? changeLetter() : undefined);
     const elem = ref.current;
     const ontransitioncancel = () => (elem.style.color = "");
     document.body.addEventListener("keypress", onkeypress);
