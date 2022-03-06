@@ -6,7 +6,7 @@ This is a simple flash card app that helps people learn how to pronounce the let
 
 ### `Instructions:`
 
-`Left Click` or press `Space` to randomly cycle between the hangul characters.
+Press `Left Click` or `Space` to change to a random hangul character.
 
 Click the Reveal button to show the phonetic pronunciation of the hangul character.
 
