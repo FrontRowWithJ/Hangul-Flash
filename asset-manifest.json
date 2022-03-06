@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/Hangul-Flash/static/css/main.2034d2e8.chunk.css",
-    "main.js": "/Hangul-Flash/static/js/main.34e714e9.chunk.js",
-    "main.js.map": "/Hangul-Flash/static/js/main.34e714e9.chunk.js.map",
-    "runtime-main.js": "/Hangul-Flash/static/js/runtime-main.9f387a97.js",
-    "runtime-main.js.map": "/Hangul-Flash/static/js/runtime-main.9f387a97.js.map",
-    "static/js/2.cde3b61f.chunk.js": "/Hangul-Flash/static/js/2.cde3b61f.chunk.js",
-    "static/js/2.cde3b61f.chunk.js.map": "/Hangul-Flash/static/js/2.cde3b61f.chunk.js.map",
-    "static/js/3.a53bbd59.chunk.js": "/Hangul-Flash/static/js/3.a53bbd59.chunk.js",
-    "static/js/3.a53bbd59.chunk.js.map": "/Hangul-Flash/static/js/3.a53bbd59.chunk.js.map",
+    "main.css": "/Hangul-Flash/static/css/main.8dd2653e.css",
+    "main.js": "/Hangul-Flash/static/js/main.abd330ac.js",
+    "static/js/787.8b404c35.chunk.js": "/Hangul-Flash/static/js/787.8b404c35.chunk.js",
     "index.html": "/Hangul-Flash/index.html",
-    "static/css/main.2034d2e8.chunk.css.map": "/Hangul-Flash/static/css/main.2034d2e8.chunk.css.map",
-    "static/js/2.cde3b61f.chunk.js.LICENSE.txt": "/Hangul-Flash/static/js/2.cde3b61f.chunk.js.LICENSE.txt"
+    "main.8dd2653e.css.map": "/Hangul-Flash/static/css/main.8dd2653e.css.map",
+    "main.abd330ac.js.map": "/Hangul-Flash/static/js/main.abd330ac.js.map",
+    "787.8b404c35.chunk.js.map": "/Hangul-Flash/static/js/787.8b404c35.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f387a97.js",
-    "static/js/2.cde3b61f.chunk.js",
-    "static/css/main.2034d2e8.chunk.css",
-    "static/js/main.34e714e9.chunk.js"
+    "static/css/main.8dd2653e.css",
+    "static/js/main.abd330ac.js"
   ]
 }
